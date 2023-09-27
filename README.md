@@ -4,7 +4,7 @@ This application is hosted at the following base URL: https://bank-api-1531.onre
 
 ## Description
 
-This project is a banking API that features password authentication using the `bcrypt` and `express-session` packages. It also uses the popular ORM Sequelize to interact with an PosgreSQL database and model the data.
+This project is a banking API that features password authentication using the `bcrypt` and `express-session` packages. It also uses the popular ORM Sequelize to interact with an PostgreSQL database and model the data.
 
 ## Specifications
 
