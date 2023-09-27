@@ -33,8 +33,15 @@ router.post('/transfer/:sender/:receiver', withAuth, async (req, res) => {
         return; 
       }
 
-      sender.balance -= parseFloat(req.body.amount);
-      receiver.balance += parseFloat(req.body.amount);
+      sender.balance = parseFloat(sender.balance);
+      receiver.balance = parseFloat(receiver.balance);
+
+      sender.balance -= parseFloat(req.body.amount)
+      receiver.balance += parseFloat(req.body.amount)
+
+      sender.balance = sender.balance.toFixed(2);
+      receiver.balance = receiver.balance.toFixed(2);
+
 
       const senderAcc = {
         balance: sender.balance,
