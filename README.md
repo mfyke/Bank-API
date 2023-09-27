@@ -1,12 +1,14 @@
 # Bank-API
 
+This application is hosted at the following base URL: https://bank-api-1531.onrender.com/
+
 ## Description
 
 This project is a banking API that features password authentication using the `bcrypt` and `express-session` packages. It also uses the popular ORM Sequelize to interact with an PosgreSQL database and model the data.
 
 ## Specifications
 
-1. API uses the following models:
+1. This API uses the following models:
 
     * `account_type`
 
@@ -178,36 +180,36 @@ This project is a banking API that features password authentication using the `b
 
 Accounts:
 
-![GET /api/accounts successful response]()
+![GET /api/accounts successful response](./assets/images/getAccounts.png)
 
-![GET /api/accounts/:id successful response]()
+![GET /api/accounts/:id successful response](./assets/images/getOneAccount.png)
 
-![POST /api/accounts successful response and body]()
+![POST /api/accounts successful response and body](./assets/images/createAccount.png)
 
-![PUT /api/accounts/:id successful response and body]()
+![PUT /api/accounts/:id successful response and body](./assets/images/updateAccount.png)
 
-![DELETE /api/accounts/:id successful response]()
+![DELETE /api/accounts/:id successful response](./assets/images/deleteAccount.png)
 
 Users:
 
-![GET /api/users successful response]()
+![GET /api/users successful response](./assets/images/getUsers.png)
 
-![GET /api/users/:id successful response]()
+![GET /api/users/:id successful response](./assets/images/getOneUser.png)
 
-![POST /api/users successful response and body]()
+![POST /api/users successful response and body](./assets/images/createUser.png)
 
-![PUT /api/users/:id successful response and body]()
+![PUT /api/users/:id successful response and body](./assets/images/editUser.png)
 
-![DELETE /api/users/:id successful response]()
+![DELETE /api/users/:id successful response](./assets/images/deleteUser.png)
 
-![POST /api/users/login succesful response and body]()
+![POST /api/users/login succesful response and body](./assets/images/login.png)
 
-![POST /api/users/logout successful response]()
+![POST /api/users/logout successful response](./assets/images/logout.png)
 
 Interest:
 
-![POST /api/interest/refresh succesful response and body]()
+![POST /api/interest/refresh succesful response and body](./assets/images/updateInterest.png)
 
 Transactions:
 
-![POST /api/transactions/transfer/:sender/:receiver succesful response and body]()
+![POST /api/transactions/transfer/:sender/:receiver succesful response and body](./assets/images/transactionTransfer.png)
